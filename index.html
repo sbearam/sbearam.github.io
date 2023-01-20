@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            Wowies
+        </title>
+        <style>
+            body
+            {
+                font-family: comic system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                background-color: white;
+            }
+            *{
+                box-sizing: border-box;
+            }
+            .container
+            {
+                padding: 16px;
+                background-color: white;
+
+            }
+            input[type = text], input[type = email], input[type = password]
+            {
+                width:100%;
+                height:5px;
+                padding:15px;
+                margin:5px 0 22px;
+                display: inline-block;
+                border: none;
+                outline: none;
+                background: whitesmoke;
+            }
+            input[type = text]:focus, input[type = email]:focus, input[type = password]:focus
+            {
+                background-color: #ddd;
+                outline: none;
+
+            }
+            .registerbtn
+            {
+                background-color: turquoise;
+                color: black;
+                padding: 16px 20px;
+                margin: 8px;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+            }
+            .registerbtn:hover
+            {
+                opacity: 1;
+                padding: 16px 10px;
+            }
+        </style>
+    </head>
+    <BODY>
+        <div class = "container">
+        <form>
+            <h1>Sign Up</h1>
+            <p>Please enter the correct information below to create an account</p>
+            <hr>
+            <label>Name</label>
+            <input type = "text" placeholder = "Name" id = "name"/>
+            <br>
+            <label>Email</label>
+            <input type = "email" placeholder = "Email" id = "email">
+            <br />
+            <label>Password</label>
+            <input type = "password" placeholder = "Password" id = "password">
+            <br>
+            <label>Re-enter Password</label>
+            <input type = "password" placeholder = "Re-enter Password">
+            <br>
+            <button class = "registerbtn">Sign Up</button>
+            <p> Already have an account?<a href="http://127.0.0.1:5500/login.html?">Login</a></p>
+            <br>
+            <p> Forgot Password? Too bad L + Ratio + Loser + Do Better</p>
+        </form>
+        </div>
+    </BODY>
+</html>
